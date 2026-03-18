@@ -7,6 +7,7 @@ public class Questao07 extends Base {
         String resultado = texto.replaceAll(
                 "(\\d{3})\\.(\\d{3})\\.(\\d{3})-(\\d{2})",
                 "***.***.***-$4");
+                
         System.out.println(resultado);
     }
 }

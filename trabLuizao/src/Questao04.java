@@ -13,6 +13,7 @@ public class Questao04 extends Base {
         Matcher matcher = pattern.matcher(texto);
 
         System.out.println("Números encontrados no texto:");
+        
         while (matcher.find()) {
 
             System.out.println(matcher.group());
