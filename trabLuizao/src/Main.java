@@ -1,5 +1,7 @@
 public class Main {
+
     public static void main(String[] args) {
+
         Questao01 q1 = new Questao01();
         Questao02 q2 = new Questao02();
         Questao03 q3 = new Questao03();

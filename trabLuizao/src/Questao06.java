@@ -13,11 +13,10 @@ public class Questao06 extends Base {
         Matcher matcher = pattern.matcher(texto);
 
         if (matcher.find()) {
+            
             System.out.println("Dia: " + matcher.group(1));
             System.out.println("Mês: " + matcher.group(2));
             System.out.println("Ano: " + matcher.group(3));
         }
-
     }
-
 }

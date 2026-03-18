@@ -4,7 +4,6 @@ import java.util.regex.Pattern;
 public class Questao04 extends Base {
 
     @Override
-
     public void executar() {
 
         String texto = "Maria tem 23 anos e comprou 5 livros por 120 reais.";
@@ -15,10 +14,9 @@ public class Questao04 extends Base {
 
         System.out.println("Números encontrados no texto:");
         while (matcher.find()) {
+
             System.out.println(matcher.group());
 
         }
-
     }
-
 }

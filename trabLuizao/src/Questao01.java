@@ -13,8 +13,10 @@ public class Questao01 extends Base {
         Matcher matcher = pattern.matcher(texto);
 
         if (matcher.matches()) {
+
             System.out.println("Válido: apenas números.");
         } else {
+
             System.out.println("Inválido.");
         }
     }
